@@ -1,1 +1,3 @@
-# S3J6eXN6dG9mIFN6dWxjIEdvZ29BcHBzIE5BU0E-
+# GogoApps NASA
+
+Application to collect image URLs from NASA's APOD API. 
