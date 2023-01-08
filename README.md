@@ -53,7 +53,7 @@ go run ./url-collector/cmd/main/main.go
 and if you want to reconfigure the application you can also provide the environment variables
 
 ```bash
-MY_VAR=MY_VALUE ./url-collector/cmd/main/main.go
+MY_VAR=MY_VALUE go run ./url-collector/cmd/main/main.go
 ```
 
 or you can modify the `config.yaml` file.
@@ -73,14 +73,14 @@ with two query params which allow to query for many urls from certain time
 - to  : defines end date in "2006-01-02" format
 ```
 
-Example `curl` calls:
+Example curl calls:
 
-The following example will return todays picture url of the day
+Gets todays picture url of the day
 ```bash
 curl "http://localhost:8080/api/v1/nasa/pictures"
 ```
 
-The following example will return all the pictures url from days 2023-01-01 to 2023-01-05
+Gets all the pictures url from days 2023-01-01 to 2023-01-05
 ```bash
 curl "http://localhost:8080/api/v1/nasa/pictures?from=2023-01-01&to=2023-01-05"
 ```
