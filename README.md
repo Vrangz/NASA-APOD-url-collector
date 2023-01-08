@@ -47,13 +47,13 @@ docker run -e MY_VAR=MY_VALUE -d -p 8080:8080 --name url-collector url-collector
 You can also run the application using source code calling
 
 ```bash
-go run ./url-collector/cmd/main/main.go
+go run ./cmd/main/main.go
 ```
 
 and if you want to reconfigure the application you can also provide the environment variables
 
 ```bash
-MY_VAR=MY_VALUE go run ./url-collector/cmd/main/main.go
+MY_VAR=MY_VALUE go run ./cmd/main/main.go
 ```
 
 or you can modify the `config.yaml` file.
