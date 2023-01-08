@@ -1,0 +1,11 @@
+# nasa api
+nasa:
+  url: https://api.nasa.gov/planetary/apod
+  api_key: DEMO_KEY
+  concurrent_requests: 5
+
+# server
+port: 8080
+
+# http client
+timeout: 30
