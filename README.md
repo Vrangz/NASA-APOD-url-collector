@@ -1,4 +1,4 @@
-# GogoApps NASA
+# NASA APOD url-collector
 
 Application to collect images URL from NASA's APOD API.
 
